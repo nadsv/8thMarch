@@ -18,7 +18,8 @@ body {
 
 .poem {
 	margin: 0;
-	position: absolute;               
+	position: absolute; 
+	z-index: 10;               
 	top: 50%;                         
 	left: 50%;                         
 	transform: translate(-50%, -50%);
@@ -27,6 +28,18 @@ body {
 	font-family: myFont, Times New Roman, serif;
 	color: #474546;
 	font-weight: bold;
+}
+
+.butterfly {
+	display: none;
+	position: absolute;
+	top: -24%;                         
+	left: -9%; 
+}
+
+.poem__string--8:hover .butterfly {
+	display: block;
+	z-index: 1; 
 }
 
 .poem__string {
