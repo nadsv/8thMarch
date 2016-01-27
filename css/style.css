@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../font/9540.ttf);
+}
+
+.container {
+	position: relative;
+	margin: 0;
+	background: url(../img/bg.jpg) center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.poem {
+	margin: 0;
+	position: absolute;               
+	top: 50%;                         
+	left: 50%;                         
+	transform: translate(-50%, -50%);
+	font-size: 2.4rem;
+	line-height: 1.5;
+	font-family: myFont, Times New Roman, serif;
+	color: #474546;
+	font-weight: bold;
+}
+
+.poem__string {
+	opacity: 0;
+	text-align: center;
+	text-shadow: 4px 2px 15px rgba(255, 255, 255, 1);
+	animation: opacity 3s ease-in forwards;
+}
+
+.poem__string:hover {
+	color: red;
+}
+
+.poem__string--1 {
+	animation-delay: 0s;
+}
+
+.poem__string--2 {
+	animation-delay: 2s;
+}
+
+.poem__string--3 {
+	animation-delay: 4s;
+}
+
+.poem__string--4 {
+	animation-delay: 6s;
+}
+
+.poem__string--5 {
+	animation-delay: 8s;
+}
+
+.poem__string--6 {
+	animation-delay: 10s;
+}
+
+.poem__string--7 {
+	animation-delay: 12s;
+}
+
+.poem__string--8 {
+	animation-delay: 14s;
+}
+
+@keyframes opacity {
+	from {
+    	opacity: 0;
+    }
+	to {
+		opacity: 1;
+    }
+}
