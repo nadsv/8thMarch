@@ -31,10 +31,24 @@ body {
 }
 
 .butterfly {
-	display: none;
+	opacity: none;
 	position: absolute;
+	
+}
+
+.butterfly--1 {
 	top: -24%;                         
 	left: -9%; 
+}
+
+.butterfly--2 {
+	top: 18%;                         
+	left: 100%; 
+}
+
+.butterfly--3 {
+	top: 53%;                         
+	left: -33%; 
 }
 
 .poem__string--8:hover .butterfly {
