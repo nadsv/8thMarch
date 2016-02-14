@@ -64,9 +64,35 @@ body {
 	animation: opacity 3s ease-in forwards;
 }
 
-.poem__string:hover {
+.poem__string--1:hover, 
+.poem__string--8:hover{
 	color: red;
 }
+
+.poem__string--2:hover {
+	color: orange;
+}
+
+.poem__string--3:hover {
+	color: #CCAD0D;
+}
+
+.poem__string--4:hover {
+	color: green;
+}
+
+.poem__string--5:hover {
+	color: deepskyblue;
+}
+
+.poem__string--6:hover {
+	color: blue;
+}
+
+.poem__string--7:hover {
+	color: blueviolet;
+}
+
 
 .poem__string--1 {
 	animation-delay: 0s;
