@@ -157,9 +157,12 @@ body {
 	}
 }
 
+
 @media (min-width: 1200px) {
+
 	.container {
 		position: relative;
+		min-height: 800px;
 	}
 
 	.poem {
